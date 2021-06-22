@@ -7,23 +7,23 @@ import java.util.*;
 public class Zuoye {
 	public static void main(String[] args) {
 
-		// 1.Ìá¹©ÈçÏÂ´úÂë
-		Student s1 = new Student(1, "ÕÅÈı", 90, 85, 75);
-		Student s2 = new Student(2, "ÀîËÄ", 60, 75, 85);
-		Student s3 = new Student(3, "ÀîËÄ", 50, 65, 95);
-		Student s4 = new Student(4, "ÍõÎå", 80, 75, 75);
-		Student s5 = new Student(5, "Íõ¶ş", 70, 65, 85);
-		Student s6 = new Student(6, "·Æ·Æ", 80, 85, 85);
-		Student s7 = new Student(7, "ÕÅÈı", 70, 45, 35);
-		Student s8 = new Student(8, "ÕÅÈı", 60, 95, 55);
+		// 1.ï¿½á¹©ï¿½ï¿½ï¿½Â´ï¿½ï¿½ï¿½
+		Student s1 = new Student(1, "ï¿½ï¿½ï¿½ï¿½", 90, 85, 75);
+		Student s2 = new Student(2, "ï¿½ï¿½ï¿½ï¿½", 60, 75, 85);
+		Student s3 = new Student(3, "ï¿½ï¿½ï¿½ï¿½", 50, 65, 95);
+		Student s4 = new Student(4, "ï¿½ï¿½ï¿½ï¿½", 80, 75, 75);
+		Student s5 = new Student(5, "ï¿½ï¿½ï¿½ï¿½", 70, 65, 85);
+		Student s6 = new Student(6, "ï¿½Æ·ï¿½", 80, 85, 85);
+		Student s7 = new Student(7, "ï¿½ï¿½ï¿½ï¿½", 70, 45, 35);
+		Student s8 = new Student(8, "ï¿½ï¿½ï¿½ï¿½", 60, 95, 55);
 
-		// Êı×éÄ£ÄâĞ¡×é
+		// ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½Ğ¡ï¿½ï¿½
 		Student[] group1 = { s1, s2 };
 		Student[] group2 = { s3, s4 };
 		Student[] group3 = { s5, s6 };
 		Student[] group4 = { s7, s8 };
 
-		// setÄ£Äâ°à¼¶
+		// setÄ£ï¿½ï¿½à¼¶
 		Set<Student[]> class1 = new HashSet<>();
 		class1.add(group1);
 		class1.add(group2);
@@ -32,11 +32,11 @@ public class Zuoye {
 		class2.add(group3);
 		class1.add(group4);
 
-		// listÄ£ÄâÑ§Ğ£
+		// listÄ£ï¿½ï¿½Ñ§Ğ£
 		List<Set<Student[]>> list = new ArrayList<>();
 		list.add(class1);
 		list.add(class2);
-		// ±éÀúlist,²éÑ¯ËùÓĞÑ§ÉúĞÅÏ¢
+		// ï¿½ï¿½ï¿½ï¿½list,ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Ï¢
 		List<Student> lists = new ArrayList<>();
 		for (Set<Student[]> a : list) {
 			for (Student[] sa : a) {
@@ -47,24 +47,24 @@ public class Zuoye {
 				System.out.println();
 			}
 		}
-		// ²éÑ¯schoolÖĞ,java¿Î³ÌÇ°3ÃûµÄÑ§ÉúµÄĞÅÏ¢
-		System.out.println("java¿Î³ÌÇ°3ÃûµÄÑ§Éú");
+		// ï¿½ï¿½Ñ¯schoolï¿½ï¿½,javaï¿½Î³ï¿½Ç°3ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
+		System.out.println("javaï¿½Î³ï¿½Ç°3ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½");
 		Java java = new Java();
 		Collections.sort(lists, java);
-		System.out.println("JavaµÚÒ»Ãû" + lists.get(0));
-		System.out.println("JavaµÚ¶şÃû" + lists.get(1));
-		System.out.println("JavaµÚÈıÃû" + lists.get(2));
-		// ²éÑ¯php²»¼°¸ñµÄÑ§ÉúµÄĞÅÏ¢
-		System.out.println("PhP³É¼¨²»¼°¸ñµÄÓĞ");
+		System.out.println("Javaï¿½ï¿½Ò»ï¿½ï¿½" + lists.get(0));
+		System.out.println("Javaï¿½Ú¶ï¿½ï¿½ï¿½" + lists.get(1));
+		System.out.println("Javaï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + lists.get(2));
+		// ï¿½ï¿½Ñ¯phpï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
+		System.out.println("PhPï¿½É¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		for (Student sb : lists) {
-			if (sb.getPhp() != null && sb.getPhp() < 60) {// Êı×ÖÀàĞÍÅĞ¶ÏNUllÖµ
+			if (sb.getPhp() != null && sb.getPhp() < 60) {// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½NUllÖµ
 				System.out.println(sb);
 			}
 		}
-		System.out.println("ÅĞ¶ÏÊÇ·ñÊÇÄ³¸öÈË");
-		// ×Ö·ûÀàĞÍÅĞ¶ÏNUllÖµ
+		System.out.println("ï¿½Ğ¶ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½");
+		// ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½NUllÖµ
 		for (Student sd : lists) {
-			if ("ÀîËÄ".equals(sd.getName())) {
+			if ("ï¿½ï¿½ï¿½ï¿½".equals(sd.getName())) {
 				System.out.println(sd);
 			}
 		}

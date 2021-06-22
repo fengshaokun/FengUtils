@@ -5,14 +5,14 @@ import java.io.IOException;
 
 public class TestFile {
 	public static void main(String[] args) throws IOException {
-		//FileÀàµÄ¶ÔÏó´ú±í ÎÄ¼ş±¾Éí,ºÍÄÚÈİÎŞ¹Ø
+		//Fileç±»çš„å¯¹è±¡ä»£è¡¨ æ–‡ä»¶æœ¬èº«,å’Œå†…å®¹æ— å…³
 		File file  = new File("D:/2000/HelloWorld.java");
-	//	file.delete(); //É¾³ıÎÄ¼ş
+	//	file.delete(); //åˆ é™¤æ–‡ä»¶
 		
 		file.createNewFile();
 		
 		
-		//»ñÈ¡ÎÄ¼şÍêÕûÂ·¾¶,¸¸Ä¿Â¼,ÎÄ¼şÃû
+		//è·å–æ–‡ä»¶å®Œæ•´è·¯å¾„,çˆ¶ç›®å½•,æ–‡ä»¶å
 //		System.out.println(file.getPath());
 //		System.out.println(file.getParent());
 //		System.out.println(file.getName());

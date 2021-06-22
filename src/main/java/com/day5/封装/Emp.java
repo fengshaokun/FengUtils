@@ -1,4 +1,4 @@
-package com.day5.·â×°;
+package com.day5.å°è£…;
 
 public class Emp {
 	private int  empno ;//1000-9999
@@ -6,7 +6,7 @@ public class Emp {
 	private int deptno ;//10 20 30 40 
 	private double sal ;//>2500
 	private double comm; // 0-1000
-	private int sex; // 0»òÕß1
+	private int sex; // 0æˆ–è€…1
 	public int getEmpno() {
 		return empno;
 	}

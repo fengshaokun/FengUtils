@@ -4,16 +4,16 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class User implements Serializable {
-	private Integer userid;// ÓÃ»§±àºÅ
-	private String username;// ÓÃ»§Ãû
-	private String psd;// ÃÜÂë
-	private String job = "Ñ§Éú";// ¹¤ÖÖ
+	private Integer userid;// ç”¨æˆ·ç¼–å·
+	private String username;// ç”¨æˆ·å
+	private String psd;// å¯†ç 
+	private String job = "å­¦ç”Ÿ";// å·¥ç§
 	private Integer classid = 1;
-	// °à¼¶ºÅ
+	// ç­çº§å·
 	/*
-	 * private String course="java";//¿Î³Ì private Integer source=60;//³É¼¨
-	 */ private Integer falseCount = 0;// ´íÎó´ÎÊı
-	private Date lastFalseTime;// ×îºóÒ»´Î³ö´íÊ±¼ä
+	 * private String course="java";//è¯¾ç¨‹ private Integer source=60;//æˆç»©
+	 */ private Integer falseCount = 0;// é”™è¯¯æ¬¡æ•°
+	private Date lastFalseTime;// æœ€åä¸€æ¬¡å‡ºé”™æ—¶é—´
 
 	public User() {
 		super();

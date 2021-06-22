@@ -4,24 +4,24 @@ import java.io.*;
 import java.util.Date;
 
 public class CopyFile {
-	//copyÎÄ¼þ
+	//copyæ–‡ä»¶
 	public static void copyFile(String filePath,String dir) throws Exception{
-		//´´½¨ÎÄ¼þ¶ÔÏó,È¡³öÄ¿±êÎÄ¼þµÄÎÄ¼þÃû
+		//åˆ›å»ºæ–‡ä»¶å¯¹è±¡,å–å‡ºç›®æ ‡æ–‡ä»¶çš„æ–‡ä»¶å
 		File file = new  File(filePath);
 		String name = file.getName();
 		
-		//´´½¨Ä¿±êÎÄ¼þ¼Ð
+		//åˆ›å»ºç›®æ ‡æ–‡ä»¶å¤¹
 		File newDir = new  File(dir);
 		newDir.mkdirs();
 		
-		//ÊäÈëÁ÷¶ÁÈ¡Ô­ÎÄ¼þµÄÄÚÈÝ
+		//è¾“å…¥æµè¯»å–åŽŸæ–‡ä»¶çš„å†…å®¹
 		InputStream is = new FileInputStream(filePath);
 		BufferedInputStream bis = new BufferedInputStream(is);
-		//Êä³öÁ÷Ð´Èëµ½ÐÂÎÄ¼þ
+		//è¾“å‡ºæµå†™å…¥åˆ°æ–°æ–‡ä»¶
 		OutputStream os =new FileOutputStream(dir+"/"+name);
 		BufferedOutputStream bos = new BufferedOutputStream(os);
 		
-		//¶ÁÈ¡×Ö½Ú,¾ÍÏòÐÂÎÄ¼þÐ´ÈëÒ»¸ö×Ö½Ú
+		//è¯»å–å­—èŠ‚,å°±å‘æ–°æ–‡ä»¶å†™å…¥ä¸€ä¸ªå­—èŠ‚
 		int num = 0;
 		while((num=bis.read())!=-1){
 			bos.write(num);
@@ -29,21 +29,21 @@ public class CopyFile {
 		bos.flush();
 		bos.close();
 		bis.close();
-		System.out.println("copy³É¹¦");
+		System.out.println("copyæˆåŠŸ");
 		
 	}
 	
 	public static void copyDir(String dirPath,String targetDir) throws Exception{
 		//D:\java32\bin
-		File dir = new File(dirPath);//´ý¿½±´µÄÎÄ¼þ¼Ð
+		File dir = new File(dirPath);//å¾…æ‹·è´çš„æ–‡ä»¶å¤¹
 		
-		//´ÓÔ­ÎÄ¼þ¼ÐÏÂÒÀ´Î±éÀú,²¢Ò»¸öÒ»¸öµÄ¿½±´µ½ÐÂÎÄ¼þ¼Ð
+		//ä»ŽåŽŸæ–‡ä»¶å¤¹ä¸‹ä¾æ¬¡éåŽ†,å¹¶ä¸€ä¸ªä¸€ä¸ªçš„æ‹·è´åˆ°æ–°æ–‡ä»¶å¤¹
 		File[] files = dir.listFiles();
 		for(File f:files){
-			if(f.isFile()){//fÊÇÎÄ¼þ¾Ícopy
+			if(f.isFile()){//fæ˜¯æ–‡ä»¶å°±copy
 				//D:\java32\bin\awt.dll  ----> D:\2000\bin\awt.dll
 				copyFile(f.getPath(),targetDir+"/"+dir.getName());
-			}else{//f²»ÊÇÎÄ¼þ,¾ÍÊÇÄ¿Â¼,ÄÇÃ´¾ÃÐèÒªÔÙÒ»´Î±éÀú;µ÷ÓÃ±¾Éí
+			}else{//fä¸æ˜¯æ–‡ä»¶,å°±æ˜¯ç›®å½•,é‚£ä¹ˆä¹…éœ€è¦å†ä¸€æ¬¡éåŽ†;è°ƒç”¨æœ¬èº«
 				//D:\java32\bin\client----->D:\2000\bin\client
 				copyDir(f.getPath(),targetDir+"/"+dir.getName());
 			}
@@ -58,7 +58,7 @@ public class CopyFile {
 		/*copyFile("D:/java127/api/JDK_API_1_6_zh_CN.CHM","D:/5000");*/
 		copyDir("D:/Java32/bin", "D:/2000");
 		Date date1 = new Date();
-		System.out.println("¹²ºÄÊ±:"+( date1.getTime()-date.getTime())+"ºÁÃë");
+		System.out.println("å…±è€—æ—¶:"+( date1.getTime()-date.getTime())+"æ¯«ç§’");
 		
 	}
 }

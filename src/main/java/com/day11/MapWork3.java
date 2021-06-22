@@ -6,22 +6,22 @@ import java.util.*;
 
 public class MapWork3 {
 	public static void main(String[] args) {
-		Student s1 = new Student(1, "ÕÅÈı", 90, 85, 75);
-		Student s2 = new Student(2, "ÀîËÄ", 60, 75, 85);
-		Student s3 = new Student(3, "ÀîËÄ", 50, 65, 95);
-		Student s4 = new Student(4, "½±½ğ", 80, 75, 75);
-		Student s5 = new Student(5, "Íõ¶ş", 70, 65, 85);
-		Student s6 = new Student(6, "·Æ·Æ", 80, 85, 85);
-		Student s7 = new Student(7, "ÕÅÈı", 70, 45, 35);
-		Student s8 = new Student(8, "ÕÅÈı", 60, 95, 60);
+		Student s1 = new Student(1, "å¼ ä¸‰", 90, 85, 75);
+		Student s2 = new Student(2, "æå››", 60, 75, 85);
+		Student s3 = new Student(3, "æå››", 50, 65, 95);
+		Student s4 = new Student(4, "å¥–é‡‘", 80, 75, 75);
+		Student s5 = new Student(5, "ç‹äºŒ", 70, 65, 85);
+		Student s6 = new Student(6, "è²è²", 80, 85, 85);
+		Student s7 = new Student(7, "å¼ ä¸‰", 70, 45, 35);
+		Student s8 = new Student(8, "å¼ ä¸‰", 60, 95, 60);
 
-		// Êı×éÄ£ÄâĞ¡×é
+		// æ•°ç»„æ¨¡æ‹Ÿå°ç»„
 		Student[] group1 = { s1, s2 };
 		Student[] group2 = { s3, s4 };
 		Student[] group3 = { s5, s6 };
 		Student[] group4 = { s7, s8 };
 
-		// setÄ£Äâ°à¼¶
+		// setæ¨¡æ‹Ÿç­çº§
 		Set<Student[]> class1 = new HashSet<>();
 		class1.add(group1);
 		class1.add(group2);
@@ -30,20 +30,20 @@ public class MapWork3 {
 		class2.add(group3);
 		class2.add(group4);
 
-		// listÄ£ÄâÑ§Ğ£
+		// listæ¨¡æ‹Ÿå­¦æ ¡
 		List<Set<Student[]>> school1 = new ArrayList<>();
 		school1.add(class1);
 		List<Set<Student[]>> school2 = new ArrayList<>();
 		school2.add(class2);
 
 		Map<String, List<Set<Student[]>>> area = new HashMap<>();
-		area.put("Ò»ÖĞ", school1);
-		area.put("¶şÖĞ", school2);
+		area.put("ä¸€ä¸­", school1);
+		area.put("äºŒä¸­", school2);
 
 		Set<String> keys = area.keySet();
-		//ÒÔÃû×ÖÎª¼ü,Ãû×Ö³öÏÖµÄ´ÎÊıÎªÖµ
+		//ä»¥åå­—ä¸ºé”®,åå­—å‡ºç°çš„æ¬¡æ•°ä¸ºå€¼
 		Map<String, Integer> map = new HashMap<>();
-		//±éÀúÍ³¼Æ±¾areaÄÚËùÓĞÑ§ÉúÃû×Ö³öÏÖµÄ´ÎÊı
+		//éå†ç»Ÿè®¡æœ¬areaå†…æ‰€æœ‰å­¦ç”Ÿåå­—å‡ºç°çš„æ¬¡æ•°
 		for (String key : keys) {
 			List<Set<Student[]>> school = area.get(key);
 			for (Set<Student[]> classs : school) {
@@ -60,7 +60,7 @@ public class MapWork3 {
 			}
 		}
 		System.out.println(map);
-		//±éÀúÑ§Çø,ÔÚÍ³¼Æcounter¼¯ºÏÖĞ,value²»Ö¹Îª1µÄ¾ÍÊÇÖØÃû
+		//éå†å­¦åŒº,åœ¨ç»Ÿè®¡counteré›†åˆä¸­,valueä¸æ­¢ä¸º1çš„å°±æ˜¯é‡å
 		for (String key : keys) {
 			List<Set<Student[]>> school = area.get(key);
 			for (Set<Student[]> clazz : school) {

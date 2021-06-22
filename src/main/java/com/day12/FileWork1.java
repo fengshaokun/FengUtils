@@ -7,10 +7,10 @@ public class FileWork1 {
     public static void listDirs(File dir) {
         File[] files = dir.listFiles();
         for (File f : files) {
-            if (f.isFile()) {//fÊÇÎÄ¼ş¾ÍÊä³ö
-                System.out.println("ÎÄ¼ş:" + f);
-            } else {//f ²»ÊÇÎÄ¼ş,¾ÍÊÇÄ¿Â¼,ĞèÒªÔÙÒ»´Î±éÀú,µ÷ÓÃ·½·¨±¾Éí
-                System.out.print("Ä¿Â¼:" + f + "\n");
+            if (f.isFile()) {//fæ˜¯æ–‡ä»¶å°±è¾“å‡º
+                System.out.println("æ–‡ä»¶:" + f);
+            } else {//f ä¸æ˜¯æ–‡ä»¶,å°±æ˜¯ç›®å½•,éœ€è¦å†ä¸€æ¬¡éå†,è°ƒç”¨æ–¹æ³•æœ¬èº«
+                System.out.print("ç›®å½•:" + f + "\n");
                 listDirs(f);
             }
         }

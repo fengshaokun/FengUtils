@@ -6,22 +6,22 @@ import java.util.*;
 
 public class MapWork1 {
 	public static void main(String[] args) {
-		Student s1 = new Student(1, "ÕÅÈı", 90, 85, 75);
-		Student s2 = new Student(2, "ÀîËÄ", 60, 75, 85);
-		Student s3 = new Student(3, "ÀîËÄ", 50, 65, 95);
-		Student s4 = new Student(4, "½±½ğ", 80, 75, 75);
-		Student s5 = new Student(5, "Íõ¶ş", 70, 65, 85);
-		Student s6 = new Student(6, "·Æ·Æ", 80, 85, 85);
-		Student s7 = new Student(7, "ÕÅÈı", 70, 45, 35);
-		Student s8 = new Student(8, "ÕÅÈı", 60, 95, 60);
+		Student s1 = new Student(1, "å¼ ä¸‰", 90, 85, 75);
+		Student s2 = new Student(2, "æå››", 60, 75, 85);
+		Student s3 = new Student(3, "æå››", 50, 65, 95);
+		Student s4 = new Student(4, "å¥–é‡‘", 80, 75, 75);
+		Student s5 = new Student(5, "ç‹äºŒ", 70, 65, 85);
+		Student s6 = new Student(6, "è²è²", 80, 85, 85);
+		Student s7 = new Student(7, "å¼ ä¸‰", 70, 45, 35);
+		Student s8 = new Student(8, "å¼ ä¸‰", 60, 95, 60);
 
-		// Êı×éÄ£ÄâĞ¡×é
+		// æ•°ç»„æ¨¡æ‹Ÿå°ç»„
 		Student[] group1 = { s1, s2 };
 		Student[] group2 = { s3, s4 };
 		Student[] group3 = { s5, s6 };
 		Student[] group4 = { s7, s8 };
 
-		// setÄ£Äâ°à¼¶
+		// setæ¨¡æ‹Ÿç­çº§
 		Set<Student[]> class1 = new HashSet<>();
 		class1.add(group1);
 		class1.add(group2);
@@ -30,19 +30,19 @@ public class MapWork1 {
 		class2.add(group3);
 		class2.add(group4);
 
-		// listÄ£ÄâÑ§Ğ£
+		// listæ¨¡æ‹Ÿå­¦æ ¡
 		List<Set<Student[]>> school1 = new ArrayList<>();
 		school1.add(class1);
 		List<Set<Student[]>> school2 = new ArrayList<>();
 		school2.add(class2);
 
 		Map<String, List<Set<Student[]>>> area = new HashMap<>();
-		area.put("Ò»ÖĞ", school1);
-		area.put("¶şÖĞ", school2);
+		area.put("ä¸€ä¸­", school1);
+		area.put("äºŒä¸­", school2);
 		
 		
 
-		// 1.±éÀúarea µÄËùÓĞStudent
+		// 1.éå†area çš„æ‰€æœ‰Student
        /*Collection<List<Set<Student[]>>>schools= area.values();
        for ( List<Set<Student[]>> school :schools){
     	   for(Set<Student[]>classs:school ){

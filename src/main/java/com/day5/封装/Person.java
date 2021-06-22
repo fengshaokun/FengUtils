@@ -1,22 +1,22 @@
-package com.day5.·â×°;
+package com.day5.å°è£…;
 
 public class Person {
 	String name;
-	//1.Ê¹ÓÃprivateĞŞÊÎage
-	private int age;//ÄêÁäÒªÔÚ0-130Ö®¼ä
+	//1.ä½¿ç”¨privateä¿®é¥°age
+	private int age;//å¹´é¾„è¦åœ¨0-130ä¹‹é—´
 	String sex;
 	String country;
 	
-	//2.¶¨ÒåÁ½¸ö·½·¨--->Í¨¹ı¹«¹²µÄ·½·¨,Ìá¹©ĞŞ¸ÄºÍ»ñÈ¡privateÊôĞÔµÄ½Ó¿Ú
-	//»ñÈ¡µÄ·½·¨
+	//2.å®šä¹‰ä¸¤ä¸ªæ–¹æ³•--->é€šè¿‡å…¬å…±çš„æ–¹æ³•,æä¾›ä¿®æ”¹å’Œè·å–privateå±æ€§çš„æ¥å£
+	//è·å–çš„æ–¹æ³•
 	public int getAge(){
 		return this.age;
 	}
 	
-	//ĞŞ¸ÄµÄ·½·¨
+	//ä¿®æ”¹çš„æ–¹æ³•
 	public void setAge(int age){
 		if(age<0||age>=130){
-			System.out.println("ÄêÁä³¬³ö·¶Î§,²»ºÏ·¨,ÎªÄ¬ÈÏÖµ");
+			System.out.println("å¹´é¾„è¶…å‡ºèŒƒå›´,ä¸åˆæ³•,ä¸ºé»˜è®¤å€¼");
 			return;
 		}
 		this.age = age;

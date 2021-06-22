@@ -1,11 +1,11 @@
 package com.day10;
-//ÀàµÄ¶ÔÏóÈçÒª¾ßÓĞ×ÔÈ»Ë³Ğò,Ôò±ØĞëÊµÏÖComparable<ÀàÃû>½Ó¿Ú
+//ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»Ë³ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Comparable<ï¿½ï¿½ï¿½ï¿½>ï¿½Ó¿ï¿½
 public class Student implements Comparable<Student>{
 	private String name;
 	private Integer java;
 	private Integer c;
 	private Integer php;
-	private Integer count;//×Ü·Ö
+	private Integer count;//ï¿½Ü·ï¿½
 	public Student() {
 		super();
 	}
@@ -55,7 +55,7 @@ public class Student implements Comparable<Student>{
 		return "Student [name=" + name + ", java=" + java + ", c=" + c + ", php=" + php + ", count=" + getCount() + "]";
 	}
 	
-	//2.ÏÔÊ¾compareTo·½·¨Ö¸¶¨±È½Ï¹æÔò;±¾Àı°´ÕÕjava³É¼¨½øĞĞÇ¿ÖÆÅÅĞò
+	//2.ï¿½ï¿½Ê¾compareToï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½È½Ï¹ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½javaï¿½É¼ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/*@Override
 	public int compareTo(Student other) {
 		//return this.java-other.java;
@@ -67,7 +67,7 @@ public class Student implements Comparable<Student>{
 		return this.name.length()-other.name.length();
 	}*/
 	
-	//ÓÅÏÈ×Ü·Ö½øĞĞÅÅĞò(´Ó´óµ½Ğ¡),×Ü·ÖÏàÍ¬,Ôò°´ÕÕÃû×Ö½øĞĞÅÅĞò
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ü·Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Ó´ï¿½Ğ¡),ï¿½Ü·ï¿½ï¿½ï¿½Í¬,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public int compareTo(Student other) {
 		if(other.count.compareTo(this.count)==0){

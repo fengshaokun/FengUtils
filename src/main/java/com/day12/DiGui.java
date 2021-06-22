@@ -1,5 +1,5 @@
 package com.day12;
-//1.Ëã 5µÄÀÛ¼Ó µ½1
+//1.ç®— 5çš„ç´¯åŠ  åˆ°1
 public class DiGui {
 	public static int fun(int num){
 		if(num==1){

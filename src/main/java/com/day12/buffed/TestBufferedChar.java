@@ -4,17 +4,17 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.Reader;
 
-//×Ö·û»º³åÁ÷
+//å­—ç¬¦ç¼“å†²æµ
 public class TestBufferedChar {
 
 	public static void main(String[] args) throws Exception {
-		//1.´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÊäÈëÁ÷¶ÔÏó
+		//1.æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„è¾“å…¥æµå¯¹è±¡
 		Reader reader = new FileReader("D:/fengshaokun/5000/xuexi.txt");
 		
-		//2.½«reader×÷Îª»º³åÁ÷¹¹Ôì·½·¨µÄ²ÎÊı
+		//2.å°†readerä½œä¸ºç¼“å†²æµæ„é€ æ–¹æ³•çš„å‚æ•°
 		BufferedReader br = new BufferedReader(reader);
 		
-		//3.×Ö·û»º³åÊäÈëÁ÷¿ÉÒÔÒ»´Î¶ÁÈ¡ÎÄ±¾ÎÄ¼şµÄÒ»¸ö×ÔÈ»ĞĞ
+		//3.å­—ç¬¦ç¼“å†²è¾“å…¥æµå¯ä»¥ä¸€æ¬¡è¯»å–æ–‡æœ¬æ–‡ä»¶çš„ä¸€ä¸ªè‡ªç„¶è¡Œ
 		int i = 0;
 		while(br.ready()){
 			String str =  br.readLine();
@@ -25,7 +25,7 @@ public class TestBufferedChar {
 			
 		}
 		
-		//4.ÊÍ·Å×ÊÔ´
+		//4.é‡Šæ”¾èµ„æº
 		br.close();
 		
 	}

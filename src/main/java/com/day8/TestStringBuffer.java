@@ -11,6 +11,8 @@ public class TestStringBuffer {
 		
 		String str1 = sb.toString();
 		System.out.println(str1);
+		System.out.println(str==str1);
+		System.out.println(str.equals(str1));
 	}
 
 }

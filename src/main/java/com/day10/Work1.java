@@ -7,11 +7,11 @@ import java.util.Set;
 public class Work1 {
 
 	public static void main(String[] args) {
-//使用Scanner输入一句话nextLine()统计出现了多少个字符
+//使锟斤拷Scanner锟斤拷锟斤拷一锟戒话nextLine()统锟狡筹拷锟斤拷锟剿讹拷锟劫革拷锟街凤拷
 		Scanner sc = new Scanner(System.in);
-		System.out.println("请输入一句话");
+		System.out.println("锟斤拷锟斤拷锟斤拷一锟戒话");
 		String str = sc.nextLine();
-		//自动剔除重复的字符
+		//锟皆讹拷锟睫筹拷锟截革拷锟斤拷锟街凤拷
 		Set<Character>set = new HashSet<>();
 		for(int i = 0;i<str.length();i++){
 			set.add(str.charAt(i));
@@ -19,10 +19,10 @@ public class Work1 {
 		
 		System.out.println(set.size());
 		System.out.println(set);
-		//公出现了多少个字符
+		//锟斤拷锟斤拷锟斤拷锟剿讹拷锟劫革拷锟街凤拷
 		
 		//char[] cs = i.toCharArray();
-		//System.out.println("一共出现了"+cs.length+"个字符");
+		//System.out.println("一锟斤拷锟斤拷锟斤拷锟斤拷"+cs.length+"锟斤拷锟街凤拷");
 	//	List<String>list = new ArrayList<>();               
 	}
 

@@ -7,25 +7,25 @@ import java.io.OutputStream;
 public class TestOutPutStream {
 
 	public static void main(String[] args) throws IOException {
-		//1.´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÊä³öÁ÷¶ÔÏó
-		//ÎÄ¼ş¼Ğ±ØĞë´æÔÚ,ÎÄ¼ş¿ÉÒÔ²»´æÔÚ
-			//¸²¸ÇÔ­ÄÚÈİ 
+		//1.æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„è¾“å‡ºæµå¯¹è±¡
+		//æ–‡ä»¶å¤¹å¿…é¡»å­˜åœ¨,æ–‡ä»¶å¯ä»¥ä¸å­˜åœ¨
+			//è¦†ç›–åŸå†…å®¹ 
 		OutputStream os = new FileOutputStream("D:/2000/a.txt");
-			//ÄÚÈİ×·¼Ó
+			//å†…å®¹è¿½åŠ 
 		//OutputStream os = new FileOutputStream("D:/2000/a.txt",true);
 		
-		//2.µ÷ÓÃ·½·¨Ğ´³ö
-		String str = "ÎÒµÄµÚÒ»¸ö¸öĞ´³ö";
-			//1.Ò»´ÎĞÔĞ´³ö
+		//2.è°ƒç”¨æ–¹æ³•å†™å‡º
+		String str = "æˆ‘çš„ç¬¬ä¸€ä¸ªä¸ªå†™å‡º";
+			//1.ä¸€æ¬¡æ€§å†™å‡º
 		byte[] temp = str.getBytes();
 		/*	os.write(temp);*/
 		
-			//2.Ò»¸ö×Ö½ÚÒ»¸ö×Ö½ÚµÄĞ´³ö
+			//2.ä¸€ä¸ªå­—èŠ‚ä¸€ä¸ªå­—èŠ‚çš„å†™å‡º
 		for(int i=0;i<temp.length;i++){
 			os.write(temp[i]);
 		}
 		
-		//3.Ë¢ĞÂ²¢ÊÍ·Å×ÊÔ´
+		//3.åˆ·æ–°å¹¶é‡Šæ”¾èµ„æº
 		os.flush();
 		os.close();
 		

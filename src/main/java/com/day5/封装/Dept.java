@@ -1,4 +1,4 @@
-package com.day5.·â×°;
+package com.day5.å°è£…;
 
 public class Dept {
 	private int deptno;

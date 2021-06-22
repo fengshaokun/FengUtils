@@ -2,21 +2,21 @@ package com.day2;
 
 public class TestFor {
 	public static void main(String[] args) {
-		/*int i=1;//1.Ñ­»·×Ó
-		while(i<=10)//2.Ñ­»·ÄÜ¹»Ö´ĞĞµÄÌõ¼ş(boolean)
+		/*int i=1;//1.å¾ªç¯å­
+		while(i<=10)//2.å¾ªç¯èƒ½å¤Ÿæ‰§è¡Œçš„æ¡ä»¶(boolean)
 		{
-			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
-			i++;//3.½«Ñ­»·×ÓÇ÷ÏòÓÚÍË³öÌõ¼şµÄ²Ù×÷
+			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
+			i++;//3.å°†å¾ªç¯å­è¶‹å‘äºé€€å‡ºæ¡ä»¶çš„æ“ä½œ
 		}
 		*/
 		
 		/*for(int i=1;i<=10;i++){
-			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
+			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
 		}*/
 		
 		int i=1;
 		for(;i<=10;){
-			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
+			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
 			i++;
 		}
 		

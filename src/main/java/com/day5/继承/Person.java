@@ -1,4 +1,4 @@
-package com.day5.¼Ì³Ğ;
+package com.day5.ç»§æ‰¿;
 
 public  class Person {
 	protected String name;
@@ -6,10 +6,10 @@ public  class Person {
 	String sex;
     private	String country;
 	
-	//Ê¡ÂÔget/set
+	//çœç•¥get/set
 	
 	public void run(){
-		System.out.println("ÈË»áÅÜ");
+		System.out.println("äººä¼šè·‘");
 	}
 	
 	

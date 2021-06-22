@@ -4,24 +4,24 @@ import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-//×Ö½Ú»º³åÁ÷:¸ßĞ§µÄ½øĞĞÎÄ¼şµÄÊäÈëºÍÊä³ö
+//å­—èŠ‚ç¼“å†²æµ:é«˜æ•ˆçš„è¿›è¡Œæ–‡ä»¶çš„è¾“å…¥å’Œè¾“å‡º
 public class TestBufferedStream {
 
 	public static void main(String[] args) throws Exception {
-		//1. ´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÁ÷¶ÔÏó	
+		//1. æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„æµå¯¹è±¡	
 		InputStream is = new FileInputStream("D:/fengshaokun/5000/xuexi.txt");
 		
-		//2.½«is×÷Îª»º³åÁ÷¹¹Ôì·½·¨µÄ²ÎÊı
+		//2.å°†isä½œä¸ºç¼“å†²æµæ„é€ æ–¹æ³•çš„å‚æ•°
 		BufferedInputStream bis = new BufferedInputStream(is);
 		
-		//3.Ê¹ÓÃ»º³åÁ÷ÖØĞ´µÄ·½·¨½øĞĞ¶ÁÈ¡²Ù×÷
+		//3.ä½¿ç”¨ç¼“å†²æµé‡å†™çš„æ–¹æ³•è¿›è¡Œè¯»å–æ“ä½œ
 		byte[] temp = new byte[is.available()];
 		bis.read(temp);
 
 		String str = new String(temp);
 		System.out.println(str);
 		
-		//4.Ö»ĞèÊÍ·Å×°ÊÎÁ÷µÄ×ÊÔ´¼´¿É
+		//4.åªéœ€é‡Šæ”¾è£…é¥°æµçš„èµ„æºå³å¯
 		bis.close();
 	}
 

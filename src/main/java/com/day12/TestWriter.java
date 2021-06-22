@@ -7,16 +7,16 @@ import java.io.Writer;
 public class TestWriter {
 
 	public static void main(String[] args) throws IOException {
-		// 1.´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÊä³öÁ÷¶ÔÏó
-		Writer writer = new FileWriter("D:/2000/1.txt", true);// true±íÊ¾×·¼Ó
+		// 1.æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„è¾“å‡ºæµå¯¹è±¡
+		Writer writer = new FileWriter("D:/2000/1.txt", true);// trueè¡¨ç¤ºè¿½åŠ 
 
-		// 2.×Ö·ûÊä³öÁ÷¿ÉÒÔÖ±½ÓÏòÎÄ¼şÖĞĞ´Èë×Ö·û´® \r\n »»ĞĞ \tÖÆ±í·û
+		// 2.å­—ç¬¦è¾“å‡ºæµå¯ä»¥ç›´æ¥å‘æ–‡ä»¶ä¸­å†™å…¥å­—ç¬¦ä¸² \r\n æ¢è¡Œ \tåˆ¶è¡¨ç¬¦
 
 		writer.write('a');
-		writer.write("\r\nÎÒÊÇµÚ¶şĞĞ");
-		writer.write("\r\nÎÒÊÇµÚ3ĞĞ");
-		writer.write("\r\nÎÒÊÇµÚ4ĞĞ");
-		writer.write("\r\nÎÒÊÇµÚ5ĞĞ");
+		writer.write("\r\næˆ‘æ˜¯ç¬¬äºŒè¡Œ");
+		writer.write("\r\næˆ‘æ˜¯ç¬¬3è¡Œ");
+		writer.write("\r\næˆ‘æ˜¯ç¬¬4è¡Œ");
+		writer.write("\r\næˆ‘æ˜¯ç¬¬5è¡Œ");
 
 		// 3.
 		writer.flush();

@@ -1,12 +1,12 @@
-package com.day11.泛型;
+package com.day11.娉涘瀷;
 
-import com.day5.继承.Person;
-import com.day5.继承.Student;
+import com.day5.缁ф壙.Person;
+import com.day5.缁ф壙.Student;
 
 public class TestF<V> {
 	public String name;
 	 
-	public V value; //定义时不确定具体类型
+	public V value; //瀹氫箟鏃朵笉纭畾鍏蜂綋绫诲瀷
 	
 	 
 	 
@@ -41,7 +41,7 @@ public class TestF<V> {
 
 	public static void main(String[] args) {
 		 TestF<String> tf1 = new TestF<String>();
-		 tf1.value = "放入一个字符串";
+		 tf1.value = "鏀惧叆涓�涓瓧绗︿覆";
 		 
 		 TestF<Integer> tf2 = new TestF<Integer>();
 		 tf2.value = 2222;

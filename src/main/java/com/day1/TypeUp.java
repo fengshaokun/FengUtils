@@ -3,7 +3,7 @@ package com.day1;
 public class TypeUp {
 	//1
 	{
-	//	System.out.println(oo);//ÏÈ¶¨ÒåºóÊ¹ÓÃ
+	//	System.out.println(oo);//å…ˆå®šä¹‰åä½¿ç”¨
 		int  oo = 1;
 		System.out.println(oo);
 		{
@@ -12,7 +12,7 @@ public class TypeUp {
 			System.out.println(iner);
 		}
 		
-	//	System.out.println(iner);//³¬³ö×÷ÓÃÓò·¶Î§
+	//	System.out.println(iner);//è¶…å‡ºä½œç”¨åŸŸèŒƒå›´
 	}
 	
 	//2.
@@ -21,16 +21,16 @@ public class TypeUp {
 	}
 	
 	public static void main(String[] args) {
-		//ÀàĞÍÌáÉı:µ±byte short char²ÎÓëÔËËãÊ±,×Ô¶¯ÌáÉıÎªintÀàĞÍ
+		//ç±»å‹æå‡:å½“byte short charå‚ä¸è¿ç®—æ—¶,è‡ªåŠ¨æå‡ä¸ºintç±»å‹
 		
-	/*	µÚÒ»£¬ËùÓĞµÄbyteĞÍ¡¢shortĞÍºÍcharµÄÖµ½«±»ÌáÉıµ½intĞÍ¡£ 
-		µÚ¶ş£¬Èç¹ûÒ»¸ö²Ù×÷ÊıÊÇlongĞÍ£¬¼ÆËã½á¹û¾ÍÊÇlongĞÍ£» 
-		µÚÈı£¬Èç¹ûÒ»¸ö²Ù×÷ÊıÊÇfloatĞÍ£¬¼ÆËã½á¹û¾ÍÊÇfloatĞÍ£» 
-		µÚËÄ£¬Èç¹ûÒ»¸ö²Ù×÷ÊıÊÇdoubleĞÍ£¬¼ÆËã½á¹û¾ÍÊÇdoubleĞÍ¡£ */
+	/*	ç¬¬ä¸€ï¼Œæ‰€æœ‰çš„byteå‹ã€shortå‹å’Œcharçš„å€¼å°†è¢«æå‡åˆ°intå‹ã€‚ 
+		ç¬¬äºŒï¼Œå¦‚æœä¸€ä¸ªæ“ä½œæ•°æ˜¯longå‹ï¼Œè®¡ç®—ç»“æœå°±æ˜¯longå‹ï¼› 
+		ç¬¬ä¸‰ï¼Œå¦‚æœä¸€ä¸ªæ“ä½œæ•°æ˜¯floatå‹ï¼Œè®¡ç®—ç»“æœå°±æ˜¯floatå‹ï¼› 
+		ç¬¬å››ï¼Œå¦‚æœä¸€ä¸ªæ“ä½œæ•°æ˜¯doubleå‹ï¼Œè®¡ç®—ç»“æœå°±æ˜¯doubleå‹ã€‚ */
 
 		/*byte b = 1;
 		byte b1 =1;
-		byte b2 = (byte)(b+b1);//ÕûĞÍ+ÕûĞÍ = ÕûĞÍ
+		byte b2 = (byte)(b+b1);//æ•´å‹+æ•´å‹ = æ•´å‹
 */		
 		
 		byte b = -128; 
@@ -38,10 +38,10 @@ public class TypeUp {
 		int i = 1;
 		long l = 2;
 	
-		char c = 'ÎÒ';
+		char c = 'æˆ‘';
 		
 	
-		//¸¡µãÊı
+		//æµ®ç‚¹æ•°
 		float f = 1.0F;
 		double d = 1.0;
 		

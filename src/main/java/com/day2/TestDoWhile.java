@@ -3,23 +3,23 @@ package com.day2;
 public class TestDoWhile {
 
 	public static void main(String[] args) {
-		// ÖÁÉÙÖ´ÐÐ1´Î
-		int i=101;//1.Ñ­»·×Ó
+		// è‡³å°‘æ‰§è¡Œ1æ¬¡
+		int i=101;//1.å¾ªçŽ¯å­
 		do{
-			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
-			i++;//3.½«Ñ­»·×ÓÇ÷ÏòÓÚÍË³öÌõ¼þµÄ²Ù×÷
-		}while(i<=100);//2.Ñ­»·ÄÜ¹»Ö´ÐÐµÄÌõ¼þ(boolean)
+			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
+			i++;//3.å°†å¾ªçŽ¯å­è¶‹å‘äºŽé€€å‡ºæ¡ä»¶çš„æ“ä½œ
+		}while(i<=100);//2.å¾ªçŽ¯èƒ½å¤Ÿæ‰§è¡Œçš„æ¡ä»¶(boolean)
 
 		
 //		int i=101;
 //		while(i<=100){
-//			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
-//			i--;//3.½«Ñ­»·×ÓÇ÷ÏòÓÚÍË³öÌõ¼þµÄ²Ù×÷
+//			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
+//			i--;//3.å°†å¾ªçŽ¯å­è¶‹å‘äºŽé€€å‡ºæ¡ä»¶çš„æ“ä½œ
 //		}
 		
 		do{
-			System.out.println("ÎÒÄÜÑ§ºÃjava-->"+i);
-			i--;//3.½«Ñ­»·×ÓÇ÷ÏòÓÚÍË³öÌõ¼þµÄ²Ù×÷
+			System.out.println("æˆ‘èƒ½å­¦å¥½java-->"+i);
+			i--;//3.å°†å¾ªçŽ¯å­è¶‹å‘äºŽé€€å‡ºæ¡ä»¶çš„æ“ä½œ
 		}while(i>=100);
 	}
 

@@ -7,20 +7,20 @@ public class TestDir {
 	public static void main(String[] args) {
 		File file = new File("D:/2000");
 		
-	//	file.mkdir();//±ØĞë±£Ö¤¸¸Ä¿Â¼´æÔÚ
-	//	file.mkdirs();//´´½¨Ä¿Â¼£¬°üÀ¨ËùÓĞ±ØĞèµ«²»´æÔÚµÄ¸¸Ä¿Â¼¡£
+	//	file.mkdir();//å¿…é¡»ä¿è¯çˆ¶ç›®å½•å­˜åœ¨
+	//	file.mkdirs();//åˆ›å»ºç›®å½•ï¼ŒåŒ…æ‹¬æ‰€æœ‰å¿…éœ€ä½†ä¸å­˜åœ¨çš„çˆ¶ç›®å½•ã€‚
 		
-	//	file.delete();//Ö»ÄÜÉ¾³ı¿ÕÄ¿Â¼
+	//	file.delete();//åªèƒ½åˆ é™¤ç©ºç›®å½•
 
-		//·µ»ØÄ¿Â¼ÏÂÎÄ¼şÃû×Ö·û´®µÄÊı×é
+		//è¿”å›ç›®å½•ä¸‹æ–‡ä»¶åå­—ç¬¦ä¸²çš„æ•°ç»„
 		/*String[] names = file.list();
 		for(String name:names){
 			System.out.println(name);
 		}*/
 		
-		//·µ»ØÄ¿Â¼ÏÂÎÄ¼şµÄ¶ÔÏóÊı×é
+		//è¿”å›ç›®å½•ä¸‹æ–‡ä»¶çš„å¯¹è±¡æ•°ç»„
 		/* File[] files = file.listFiles();
-		 System.out.println("Ä¿Â¼");
+		 System.out.println("ç›®å½•");
 		 for(File f:files){
 			 if(f.isDirectory()){
 				 System.out.println(f);

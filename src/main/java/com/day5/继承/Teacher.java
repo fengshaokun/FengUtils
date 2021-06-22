@@ -1,4 +1,4 @@
-package com.day5.¼Ì³Ð;
+package com.day5.ç»§æ‰¿;
 
 public class Teacher extends Person{
 

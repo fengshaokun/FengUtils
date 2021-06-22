@@ -9,25 +9,25 @@ import java.util.Set;
 
 public class Work2 {
 public static void main(String[] args) {
-	Student s1 = new Student("ÕÅÈı",90,85,75);
-	Student s2 = new Student("ÀîËÄ",60,75,85);
-	Student s3 = new Student("ÀîËÄ",50,65,95);
-	Student s4 = new Student("ÍõÎå",80,75,75);
-	Student s5 = new Student("Íõ¶ş",70,65,85);
-	Student s6 = new Student("·Æ·Æ",80,85,85);
-	Student s7 = new Student("ÕÅÈı",70,45,35);
+	Student s1 = new Student("ï¿½ï¿½ï¿½ï¿½",90,85,75);
+	Student s2 = new Student("ï¿½ï¿½ï¿½ï¿½",60,75,85);
+	Student s3 = new Student("ï¿½ï¿½ï¿½ï¿½",50,65,95);
+	Student s4 = new Student("ï¿½ï¿½ï¿½ï¿½",80,75,75);
+	Student s5 = new Student("ï¿½ï¿½ï¿½ï¿½",70,65,85);
+	Student s6 = new Student("ï¿½Æ·ï¿½",80,85,85);
+	Student s7 = new Student("ï¿½ï¿½ï¿½ï¿½",70,45,35);
 
-	Set<Student> c1 = new HashSet<>(); // 1°à
+	Set<Student> c1 = new HashSet<>(); // 1ï¿½ï¿½
 	c1.add(s1);
 	c1.add(s2);
 	c1.add(s3);
-	Set<Student> c2 = new HashSet<>(); // 2°à
+	Set<Student> c2 = new HashSet<>(); // 2ï¿½ï¿½
 	c2.add(s4);
 	c2.add(s5);
-	Set<Student> c3 = new HashSet<>(); // 3°à
+	Set<Student> c3 = new HashSet<>(); // 3ï¿½ï¿½
 	c3.add(s6);
 	c3.add(s7);
-	//Ê¹ÓÃlistÄ£ÄâÑ§Ğ£
+	//Ê¹ï¿½ï¿½listÄ£ï¿½ï¿½Ñ§Ğ£
 	List<Set<Student>> school = new ArrayList<>();
 	school.add(c1);
 	school.add(c2);

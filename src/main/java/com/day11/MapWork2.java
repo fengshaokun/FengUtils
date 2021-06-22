@@ -6,14 +6,14 @@ import java.util.Scanner;
 
 public class MapWork2 {
 	public static void main(String[] args) {
-		// Ëæ±ãÊäÈëÒ»¸ö×Ö·û´®,Í³¼ÆÃ¿¸ö×Ö·û³öÏÖµÄ´ÎÊı
+		// éšä¾¿è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²,ç»Ÿè®¡æ¯ä¸ªå­—ç¬¦å‡ºç°çš„æ¬¡æ•°
 		Scanner sc = new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¾ä»°");
+		System.out.println("è¯·è¾“å…¥ä¸€å¥è¯");
 		String str = sc.nextLine();
-		// key:ÒªÍ³¼ÆµÄµ¥¸ö×Ö·ûvalue:³öÏÖµÄ´ÎÊı
+		// key:è¦ç»Ÿè®¡çš„å•ä¸ªå­—ç¬¦value:å‡ºç°çš„æ¬¡æ•°
 		Map<Character, Integer> counter = new HashMap<>();
 		char[] chars = str.toCharArray();
-		// Ñ­»·µÄÏòcounter·ÅÈë×Ö·û
+		// å¾ªç¯çš„å‘counteræ”¾å…¥å­—ç¬¦
 		for (char c : chars) {
 			if (counter.get(c) == null) {
 				counter.put(c, 1);

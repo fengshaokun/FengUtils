@@ -6,23 +6,23 @@ import java.io.Reader;
 public class TestReader {
 
 	public static void main(String[] args) throws Exception {
-		//1.´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÊäÈëÁ÷¶ÔÏó
+		//1.æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„è¾“å…¥æµå¯¹è±¡
 		Reader reader = new FileReader("D:/2000/1.txt");
 		
-		//2.½øĞĞ¶ÁÈ¡²Ù×÷,×Ö·ûÁ÷ÒÔ×Ö·ûÎªµ¥Î»
+		//2.è¿›è¡Œè¯»å–æ“ä½œ,å­—ç¬¦æµä»¥å­—ç¬¦ä¸ºå•ä½
 		String str = "";
-		//Ò»´Î¶ÁÈ¡µ¥¸ö×Ö·û
+		//ä¸€æ¬¡è¯»å–å•ä¸ªå­—ç¬¦
 		while(reader.ready()){
 			str+=(char)reader.read();
 		}
 		
 		System.out.println(str);
 		
-		//3.¹Ø±Õ×ÊÔ´
+		//3.å…³é—­èµ„æº
 		reader.close();
 		
 		
-		/*String  str = "ÊÇµØ·½ÈöµØ·½ÈöµØ·½";
+		/*String  str = "æ˜¯åœ°æ–¹æ’’åœ°æ–¹æ’’åœ°æ–¹";
 		System.out.println(Arrays.toString(str.toCharArray()));
 		System.out.println(Arrays.toString(str.getBytes()));*/
 	}

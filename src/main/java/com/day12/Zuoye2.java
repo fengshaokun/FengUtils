@@ -16,9 +16,9 @@ public class Zuoye2 {
 		Reader reader = new FileReader("D:/fengshaokun/zuoye/a.txt");
 		BufferedReader br = new BufferedReader(reader);
 		
-		String msg =  br.readLine();//¶ÁÈ¡µÚÒ»ĞĞ
+		String msg =  br.readLine();//è¯»å–ç¬¬ä¸€è¡Œ
 		List<Student> list = new ArrayList<>();
-		//¶ÁÈ¡Ñ§ÉúĞÅÏ¢
+		//è¯»å–å­¦ç”Ÿä¿¡æ¯
 		while(br.ready()){
 			String[] temp = br.readLine().split("[#]");
 			System.out.println(Arrays.toString(temp));
@@ -34,7 +34,7 @@ public class Zuoye2 {
 			System.out.println(s);
 		}
 		
-		//ÀûÓÃ±È½ÏÆ÷ÅÅĞò
+		//åˆ©ç”¨æ¯”è¾ƒå™¨æ’åº
 		Collections.sort(list,new StudentCountCom());
 		System.out.println("--------------------------------");
 		for(Student s:list){
@@ -42,10 +42,10 @@ public class Zuoye2 {
 		}
 		
 		
-		//Ğ´»ØÈ¥
+		//å†™å›å»
 		Writer writer = new  FileWriter("D:/2000/B.txt");
 		BufferedWriter bw = new BufferedWriter(writer);
-		bw.write(msg+"#×Ü·Ö");
+		bw.write(msg+"#æ€»åˆ†");
 		bw.newLine();
 		bw.flush();
 		

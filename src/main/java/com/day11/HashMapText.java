@@ -8,25 +8,25 @@ import java.util.Set;
 public class HashMapText {
 public static void main(String[] args) {
 	Map<String,String> map = new HashMap<>();
-	map.put("aaa", "µÚÒ»");
-	map.put("bbb", "µÚ¶ş");
-	map.put("ccc", "µÚÈı");
-	map.put("ddd", "µÚËÄ");
-	map.put("eee", "µÚÎå");
+	map.put("aaa", "ç¬¬ä¸€");
+	map.put("bbb", "ç¬¬äºŒ");
+	map.put("ccc", "ç¬¬ä¸‰");
+	map.put("ddd", "ç¬¬å››");
+	map.put("eee", "ç¬¬äº”");
 	System.out.println(map);
 
-//±éÀúMap
-	//1.ÏÈ±éÀúkey¼¯ºÏ,ÔÙÍ¨¹ıget·½·¨È¡³övalue
+//éå†Map
+	//1.å…ˆéå†keyé›†åˆ,å†é€šè¿‡getæ–¹æ³•å–å‡ºvalue
 	Set<String> keys= map.keySet();
 	for(String key:keys){
 		System.out.println(key+"-------->"+map.get(key));
 	}
-	//2.Ö±½ÓÈ¡³öÖµ¼¯ºÏ,½øĞĞ±éÀú
+	//2.ç›´æ¥å–å‡ºå€¼é›†åˆ,è¿›è¡Œéå†
 	Collection <String> values =map.values();
 	for ( String value:values){
 		System.out.println(value);
 		}
-	//3.±éÀúÓ³Éä¹ØÏµ¼¯ºÏ
+	//3.éå†æ˜ å°„å…³ç³»é›†åˆ
 	Set<Map.Entry<String, String>>entrys = map.entrySet();
 	for(Map.Entry<String, String>entry:entrys){
 		System.out.println(entry);

@@ -1,4 +1,4 @@
-package com.day5.�̳�;
+package com.day5.继承;
 
 public class TestExtends {
 
@@ -15,7 +15,7 @@ public class TestExtends {
 		
 		
 		SmallStudent ss  = new SmallStudent();
-		ss.name="С";
+		ss.name="小";
 		ss.run();
 		ss.sid = 10;
 		ss.study();

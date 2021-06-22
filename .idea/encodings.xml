@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/HelloWorld.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeChange.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeUp.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/VarTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/LengthComparator.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Setset.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/StringTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Student.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/TreeSetTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Work1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Work2.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/C.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Count.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Java.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Student.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/StudentTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/zuoye/Java.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/zuoye/Zuoye.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/HashMapText.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork2.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork3.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/PropertiesTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/泛型/TestF.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/泛型/Text1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/CopyFile.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/DiGui.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/FileWork1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/StudentCountCom.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestDir.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestFile.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestInputStream.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestOutPutStream.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestReader.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestWriter.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/WorkCopy.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/WorkTest.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye1.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye2.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/buffed/TestBufferedChar.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/buffed/TestBufferedStream.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/Test.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/User.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/UserDao.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/view/AdminView.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestDoWhile.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestFor.java" charset="GBK" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/HelloWorld.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeChange.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/TypeUp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day1/VarTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/LengthComparator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Setset.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/StringTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/TreeSetTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Work1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/Work2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/C.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Count.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Java.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/work/StudentTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/zuoye/Java.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day10/zuoye/Zuoye.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/HashMapText.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/MapWork3.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/PropertiesTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/泛型/TestF.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day11/泛型/Text1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/CopyFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/DiGui.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/FileWork1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/StudentCountCom.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestDir.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestInputStream.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestOutPutStream.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestReader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/TestWriter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/WorkCopy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/WorkTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/Zuoye2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/buffed/TestBufferedChar.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day12/buffed/TestBufferedStream.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day13/view/AdminView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestDoWhile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestFor.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestIf.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestOperation.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/TestWhile.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/hw/HW.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day2/hw/HW.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/work/ForWork.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/work/IFWork.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day2/work/IfWork2.java" charset="GBK" />
@@ -100,16 +100,16 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/day5/work/Sheep.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day5/work/Test.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day5/三大特征" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Dept.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Emp.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Person.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/TestDept.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/TestPerson.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Person.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/SmallStudent.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Student.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Teacher.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/TestExtends.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Dept.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Emp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/TestDept.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/封装/TestPerson.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/SmallStudent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Student.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/Teacher.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/day5/继承/TestExtends.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day6/Test.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day6/abs/Circle.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/day6/abs/Figure.java" charset="GBK" />
@@ -190,6 +190,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com/test/AtomicIntegerTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/test/RandomTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/test/UrlInstall.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/util/DateUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/util/DateUtils.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

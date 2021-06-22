@@ -8,10 +8,10 @@ public class UserDao {
 
 	private String filePath = "D:/fengshaokun/zuoye/a.txt";
 
-	// 1.±£´æListµÄ·½·¨
+	// 1.ä¿å­˜Listçš„æ–¹æ³•
 	/**
-	 * @param ½ÓÊÜÒ»¸öUser¼¯ºÏÎª²ÎÊı
-	 *            Ã»ÓĞ·µ»ØÖµ
+	 * @param æ¥å—ä¸€ä¸ªUseré›†åˆä¸ºå‚æ•°
+	 *            æ²¡æœ‰è¿”å›å€¼
 	 */
 	public void setUsers(List<User> users) {
 		ObjectOutputStream oos = null;
@@ -35,7 +35,7 @@ public class UserDao {
 		}
 	}
 
-	// 2.¶ÁÈ¡ListµÄ·½·¨
+	// 2.è¯»å–Listçš„æ–¹æ³•
 	public List<User> getUsers() {
 		List<User> users = null;
 		ObjectInputStream ois = null;
@@ -55,22 +55,22 @@ public class UserDao {
 		return users;
 	}
 
-	// 3.Ìí¼ÓĞÂÓÃ»§
-	// ÏÈ½«Ô­list¶ÁÈ¡³öÀ´,ÔÚÆäÖĞaddÒ»¸öĞÂµÄÓÃ»§¶ÔÏó
+	// 3.æ·»åŠ æ–°ç”¨æˆ·
+	// å…ˆå°†åŸlistè¯»å–å‡ºæ¥,åœ¨å…¶ä¸­addä¸€ä¸ªæ–°çš„ç”¨æˆ·å¯¹è±¡
 	public void addUsers(User user) {
 	List<User>users = getUsers();
 	user.setUserid(users.size()+1);
      users.add(user);
      setUsers(users);
      }
-     // 4.¸ù¾İÓÃ»§±àºÅ,ĞŞ¸ÄÓÃ»§µÄĞÅÏ¢
-		// ÏÈ½«Ô­list¶ÁÈ¡³öÀ´,±éÀúlist,Èç¹ûÓÃ»§±àºÅÆ¥Åä,¾ÍĞŞ¸ÄĞÅÏ¢;½«ĞŞ¸ÄÒÔºóµÄlistĞ´»ØÊı¾İÎÄ¼ş
+     // 4.æ ¹æ®ç”¨æˆ·ç¼–å·,ä¿®æ”¹ç”¨æˆ·çš„ä¿¡æ¯
+		// å…ˆå°†åŸlistè¯»å–å‡ºæ¥,éå†list,å¦‚æœç”¨æˆ·ç¼–å·åŒ¹é…,å°±ä¿®æ”¹ä¿¡æ¯;å°†ä¿®æ”¹ä»¥åçš„listå†™å›æ•°æ®æ–‡ä»¶
 	public void updateUserById(User user){
 		List<User>users = getUsers();
-		users.set(user.getUserid()-1, user);//Ê¹ÓÃÓÃ»§±àºÅ-1,ÕÒµ½ÒªĞŞ¸ÄµÄÓÃ»§ÏÂ±ê
+		users.set(user.getUserid()-1, user);//ä½¿ç”¨ç”¨æˆ·ç¼–å·-1,æ‰¾åˆ°è¦ä¿®æ”¹çš„ç”¨æˆ·ä¸‹æ ‡
 		setUsers(users);		
 	}
-	// 5.¸ù¾İÓÃ»§±àºÅ,²éÑ¯ÓÃ»§¼ÇÂ¼
+	// 5.æ ¹æ®ç”¨æˆ·ç¼–å·,æŸ¥è¯¢ç”¨æˆ·è®°å½•
 	public User inquireUserById(int userId ){
 		List<User>users = getUsers();
 		return users.get(userId-1);

@@ -3,7 +3,7 @@ package com.day1;
 public class VarTest {
 
 	public static void main(String[] args) {
-		//±äÁ¿:ÀàÐÍ ±äÁ¿Ãû = ³õÊ¼Öµ(×ÖÃæÁ¿)
+		//å˜é‡:ç±»åž‹ å˜é‡å = åˆå§‹å€¼(å­—é¢é‡)
 		int i = 1;
 		System.out.println(i);//--->1
 		i=2;

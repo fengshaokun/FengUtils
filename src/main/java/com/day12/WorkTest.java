@@ -11,7 +11,7 @@ public class WorkTest {
 		
 		Scanner sc = new Scanner(System.in);
 		while(true){
-			System.out.println("ÇëÊäÈë±¾ĞĞ´úÂë");
+			System.out.println("è¯·è¾“å…¥æœ¬è¡Œä»£ç ");
 			String msg = sc.nextLine();
 			if("OK".equals(msg)){break;}
 			writer.write(msg+"\r\n");

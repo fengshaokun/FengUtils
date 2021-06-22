@@ -11,15 +11,15 @@ public class Zuoye1 {
 	}
 
 	private static void copy(File src, File dest) throws IOException {
-		// ´´½¨Ò»¸öĞÂÎÄ¼ş¼Ğ
+		// åˆ›å»ºä¸€ä¸ªæ–°æ–‡ä»¶å¤¹
 		File newdir = new File(dest, src.getName());
 		newdir.mkdir();
-		// »ñÈ¡¸ÃÎÄ¼ş¼ĞÏÂËùÓĞµÄÎÄ¼şºÍÎÄ¼ş¼ĞlistFile(),´æ´¢ÔÚFileÊı×é;
+		// è·å–è¯¥æ–‡ä»¶å¤¹ä¸‹æ‰€æœ‰çš„æ–‡ä»¶å’Œæ–‡ä»¶å¤¹listFile(),å­˜å‚¨åœ¨Fileæ•°ç»„;
 		File[] subfiles = src.listFiles();
-		// ÅĞ¶ÏÊÇ·ñÊÇÎÄ¼ş
+		// åˆ¤æ–­æ˜¯å¦æ˜¯æ–‡ä»¶
 		for (File subfile : subfiles) {
 			if (subfile.isFile()) {
-				// ÎÄ¼şµÄ¶ÁĞ´£¬ioÁ÷Ö»ÄÜ¶ÁĞ´ÎÄ¼ş£¬²»ÄÜ¶ÁĞ´ÎÄ¼ş¼Ğ
+				// æ–‡ä»¶çš„è¯»å†™ï¼Œioæµåªèƒ½è¯»å†™æ–‡ä»¶ï¼Œä¸èƒ½è¯»å†™æ–‡ä»¶å¤¹
 				BufferedInputStream bis = new BufferedInputStream(new FileInputStream(subfile));
 				BufferedOutputStream bos = new BufferedOutputStream(
 						new FileOutputStream(new File(newdir, subfile.getName())));
@@ -30,7 +30,7 @@ public class Zuoye1 {
 				bis.close();
 				bos.close();
 			} else {
-				// µİ¹éµ÷ÓÃ
+				// é€’å½’è°ƒç”¨
 				copy(subfile, newdir);
 			}
 		}

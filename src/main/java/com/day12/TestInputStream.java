@@ -7,20 +7,20 @@ import java.io.InputStream;
 public class TestInputStream {
 
 	public static void main(String[] args) throws IOException {
-		//1.´ò¿ªÒ»¸öÖ¸ÏòÖ¸¶¨ÎÄ¼şµÄÊäÈëÁ÷¶ÔÏó
+		//1.æ‰“å¼€ä¸€ä¸ªæŒ‡å‘æŒ‡å®šæ–‡ä»¶çš„è¾“å…¥æµå¯¹è±¡
 		InputStream is = new FileInputStream("D:/fengshaokun/5000/xuexi.txt");
 		
-		//2.½øĞĞ¶ÁÈ¡²Ù×÷
-			//1.Ò»´ÎĞÔ¶ÁÈ¡¶à¸ö×Ö½Ú
-			//Ê¹ÓÃbyteÊı×é½ÓÊÕ¶ÁÈ¡µÄ×Ö½Ú(is.available():Á÷ÖĞ×Ö½ÚµÄ¸öÊı)
+		//2.è¿›è¡Œè¯»å–æ“ä½œ
+			//1.ä¸€æ¬¡æ€§è¯»å–å¤šä¸ªå­—èŠ‚
+			//ä½¿ç”¨byteæ•°ç»„æ¥æ”¶è¯»å–çš„å­—èŠ‚(is.available():æµä¸­å­—èŠ‚çš„ä¸ªæ•°)
 			byte[] temp = new byte[is.available()];
-			//½«ÄÚÈİ¶ÁÈëµ½byteÊı×éÖĞ
+			//å°†å†…å®¹è¯»å…¥åˆ°byteæ•°ç»„ä¸­
 			is.read(temp);
-			//Êı¾İµÄ´¦Àí(²»Í¬ÎÄ¼şÀàĞÍ²»Í¬)
+			//æ•°æ®çš„å¤„ç†(ä¸åŒæ–‡ä»¶ç±»å‹ä¸åŒ)
 			String str = new String(temp);
 			System.out.println(str);
 			
-			//2.Ò»´Î¶ÁÈ¡µ¥¸ö×Ö½Ú
+			//2.ä¸€æ¬¡è¯»å–å•ä¸ªå­—èŠ‚
 //			String str = "";
 //			int num = 0;
 //			while((num=is.read())!=-1){
@@ -29,7 +29,7 @@ public class TestInputStream {
 //			System.out.println(str);
 		
 		
-		//3.¹Ø±Õ×ÊÔ´
+		//3.å…³é—­èµ„æº
 			is.close();
 		
 	}

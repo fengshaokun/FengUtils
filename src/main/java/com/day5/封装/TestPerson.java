@@ -1,4 +1,4 @@
-package com.day5.封装;
+package com.day5.灏佽;
 
 public class TestPerson {
 
@@ -6,7 +6,7 @@ public class TestPerson {
 		Person p = new Person();
 		p.name = "a";
 		p.country = "NJ";
-	//	p.age = -150;//private修饰的成员在类的外部不能直接使用
+	//	p.age = -150;//private淇グ鐨勬垚鍛樺湪绫荤殑澶栭儴涓嶈兘鐩存帴浣跨敤
 		p.setAge(-50);
 		System.out.println(p);
 

@@ -1,4 +1,4 @@
-package com.day5.·â×°;
+package com.day5.å°è£…;
 
 public class TestDept {
 
@@ -15,10 +15,10 @@ public class TestDept {
 		dept1.setLoc("nanjing1111");
 		
 		System.out.println(dept1);
-		//==±È½ÏµÄÊÇ¶ÔÏóÒıÓÃµÄµØÖ·ÊÇ·ñÒ»ÖÂ
+		//==æ¯”è¾ƒçš„æ˜¯å¯¹è±¡å¼•ç”¨çš„åœ°å€æ˜¯å¦ä¸€è‡´
 		System.out.println(dept==dept1);
 		
-		//equalsÔÚÎ´ÖØĞ´Ö®Ç°,»¹ÊÇ°´ÕÕ==½øĞĞ±È½Ï;ÖØĞ´ºó,ÓÉ³ÌĞòÔ±Ö¸¶¨±È½ÏÌõ¼ş,½øĞĞÄÚÈİµÄ±È½Ï
+		//equalsåœ¨æœªé‡å†™ä¹‹å‰,è¿˜æ˜¯æŒ‰ç…§==è¿›è¡Œæ¯”è¾ƒ;é‡å†™å,ç”±ç¨‹åºå‘˜æŒ‡å®šæ¯”è¾ƒæ¡ä»¶,è¿›è¡Œå†…å®¹çš„æ¯”è¾ƒ
 		System.out.println(dept.equals(dept1));//
 		
 	

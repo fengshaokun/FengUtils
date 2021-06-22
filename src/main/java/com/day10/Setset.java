@@ -11,18 +11,18 @@ import java.util.Set;
 public class Setset {
 public static void main(String[] args) {
 	Set <String> set = new HashSet<>();
-	//Ôö¼ÓÔªËØ
+	//ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 	set.add("KING");
 	set.add("fsd");
 	set.add("hgj");
 	set.add("wrt");
 	set.add("jkhj");
-	//ÏÈ±éÀú
+	//ï¿½È±ï¿½ï¿½ï¿½
 for(String str:set){
-	String temp1=str.substring(0, 1);//È¡³öÊ××ÖÄ¸
-	String temp2=str.substring(1);//È¡³öÊ××ÖÄ¸ÒÔÍâµÄÊı×Ö
-	String first=temp1.toUpperCase();//Ê××ÖÄ¸×ª´óĞ´
-	String other=temp2.toLowerCase();//×ÖÄ¸Ğ¡Ğ´
+	String temp1=str.substring(0, 1);//È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸
+	String temp2=str.substring(1);//È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	String first=temp1.toUpperCase();//ï¿½ï¿½ï¿½ï¿½Ä¸×ªï¿½ï¿½Ğ´
+	String other=temp2.toLowerCase();//ï¿½ï¿½Ä¸Ğ¡Ğ´
 	System.out.println(first+other);
 }
 	
@@ -31,11 +31,11 @@ Emp emp2 = new Emp(2,"MARRAY","SALER",1,1000.0,2000.0,10, DateUtils.stringToDate
 Emp emp3 = new Emp(3,"SCOTT","SALER",1,2000.0,300.0,10, DateUtils.stringToDateUpdate("1981-11-31"));
 Emp emp4 = new Emp(4,"KING","SALER",1,1200.0,2500.0,10, DateUtils.stringToDateUpdate("1985-6-11"));
 Emp emp5 = new Emp(5,"WORD","SALER",1,3000.0,2200.0,10, DateUtils.stringToDateUpdate("1984-12-31"));
-//·ÅÈë¼¯ºÏ
+//ï¿½ï¿½ï¿½ë¼¯ï¿½ï¿½
 List<Emp>list = new ArrayList<>();
 list.add(emp1);list.add(emp2);list.add(emp3);
 list.add(emp4);list.add(emp5);
-// ÀûÓÃset¼¯ºÏÏàÍ¬µÄÔªËØÖ»ÄÜ·ÅÈëÒ»¸ö
+// ï¿½ï¿½ï¿½ï¿½setï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ôªï¿½ï¿½Ö»ï¿½Ü·ï¿½ï¿½ï¿½Ò»ï¿½ï¿½
 Set <Double> set1 = new HashSet<>();
 for (Emp e:list){
 set1.add(e.getSal());

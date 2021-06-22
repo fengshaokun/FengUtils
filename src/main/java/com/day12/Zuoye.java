@@ -11,22 +11,22 @@ public class Zuoye {
         File src=getDir();
         File dest=getDir();
         if(src.equals(dest)){
-            System.out.println("¸ÃÎÄ¼ş¼ĞÎªÔ´ÎÄ¼ş¼ĞµÄ×ÓÎÄ¼ş¼Ğ");
+            System.out.println("è¯¥æ–‡ä»¶å¤¹ä¸ºæºæ–‡ä»¶å¤¹çš„å­æ–‡ä»¶å¤¹");
         }else{
         copy(src,dest);
         }
     }
     private static void copy(File src,File dest) throws IOException {
         // TODO Auto-generated method stub
-        //´´½¨Ò»¸öĞÂÎÄ¼ş¼Ğ
+        //åˆ›å»ºä¸€ä¸ªæ–°æ–‡ä»¶å¤¹
         File newdir=new File(dest,src.getName());
         newdir.mkdir();
-        //»ñÈ¡¸ÃÎÄ¼ş¼ĞÏÂËùÓĞµÄÎÄ¼şºÍÎÄ¼ş¼ĞlistFile(),´æ´¢ÔÚFileÊı×é;
+        //è·å–è¯¥æ–‡ä»¶å¤¹ä¸‹æ‰€æœ‰çš„æ–‡ä»¶å’Œæ–‡ä»¶å¤¹listFile(),å­˜å‚¨åœ¨Fileæ•°ç»„;
         File[] subfiles=src.listFiles();
-        //ÅĞ¶ÏÊÇ·ñÊÇÎÄ¼ş
+        //åˆ¤æ–­æ˜¯å¦æ˜¯æ–‡ä»¶
         for (File subfile : subfiles) {
             if(subfile.isFile()){
-                //ÎÄ¼şµÄ¶ÁĞ´£¬ioÁ÷Ö»ÄÜ¶ÁĞ´ÎÄ¼ş£¬²»ÄÜ¶ÁĞ´ÎÄ¼ş¼Ğ
+                //æ–‡ä»¶çš„è¯»å†™ï¼Œioæµåªèƒ½è¯»å†™æ–‡ä»¶ï¼Œä¸èƒ½è¯»å†™æ–‡ä»¶å¤¹
                 BufferedInputStream bis=new BufferedInputStream(new FileInputStream(subfile));
                 BufferedOutputStream bos=new BufferedOutputStream(new FileOutputStream(new File(newdir,subfile.getName())));
                 int b;
@@ -36,24 +36,24 @@ public class Zuoye {
                 bis.close();
                 bos.close();
             }else{
-                //µİ¹éµ÷ÓÃ
+                //é€’å½’è°ƒç”¨
                 copy(subfile,newdir);
             }
         }
     }
     public static File getDir() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÎÄ¼ş¼ĞÂ·¾¶£º");
-        // ¶¨ÒåÒ»¸öÎŞÏŞÑ­»·
+        System.out.println("è¯·è¾“å…¥æ–‡ä»¶å¤¹è·¯å¾„ï¼š");
+        // å®šä¹‰ä¸€ä¸ªæ— é™å¾ªç¯
         while (true) {
-            //½«¼üÅÌÂ¼ÈëµÄ½á¹û´æ´¢²¢·â×°³ÉFile¶ÔÏó
+            //å°†é”®ç›˜å½•å…¥çš„ç»“æœå­˜å‚¨å¹¶å°è£…æˆFileå¯¹è±¡
             String line = sc.nextLine();
             File file = new File(line);
-            //¶ÔFile½øĞĞÅĞ¶Ï
+            //å¯¹Fileè¿›è¡Œåˆ¤æ–­
             if (!file.exists()) {
-                System.out.println("ÎÄ¼ş¼Ğ²»´æÔÚ£¬ÇëÊäÈëÒ»¸öÎÄ¼ş¼ĞÂ·¾¶£º");
+                System.out.println("æ–‡ä»¶å¤¹ä¸å­˜åœ¨ï¼Œè¯·è¾“å…¥ä¸€ä¸ªæ–‡ä»¶å¤¹è·¯å¾„ï¼š");
             } else if (file.isFile()) {
-                System.out.println("ÊäÈëµÄ²»ÊÇÎÄ¼ş¼Ğ£¬ÇëÊäÈëÒ»¸öÎÄ¼ş¼ĞÂ·¾¶£º");
+                System.out.println("è¾“å…¥çš„ä¸æ˜¯æ–‡ä»¶å¤¹ï¼Œè¯·è¾“å…¥ä¸€ä¸ªæ–‡ä»¶å¤¹è·¯å¾„ï¼š");
             } else {
                 return file;
             }
